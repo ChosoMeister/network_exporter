@@ -19,7 +19,7 @@ services:
     ports:
       - 3000:3000
     environment:
-      - TZ=Europe/Paris
+      - TZ=Asia/Tehran
       - GF_SECURITY_ADMIN_PASSWORD=admin
       - GF_USERS_ALLOW_SIGN_UP=false
     volumes:
